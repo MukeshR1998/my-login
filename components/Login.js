@@ -5,6 +5,11 @@ const Login = () => {
     <div className="flex flex-col gap-2 w-full justify-center items-center h-screen">
       <input
         className="bg-gray-500 rounded px-2"
+        type="text"
+        placeholder="full name"
+      />
+      <input
+        className="bg-gray-500 rounded px-2"
         type="email"
         placeholder="email"
       />
